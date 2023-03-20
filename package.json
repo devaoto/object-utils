@@ -1,0 +1,37 @@
+{
+  "name": "object-utils",
+  "version": "1.0.0",
+  "description": "The object-utils module is a small utility library for working with objects in TypeScript. It includes several functions for common operations such as deep cloning, merging, comparing equality, converting objects to arrays, and flattening objects to a one-level deep object with dot notation keys.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sohom829/object-utils.git"
+  },
+  "keywords": [
+    "Node",
+    "Object",
+    "Utils",
+    "Module",
+    "Merging",
+    "Deep",
+    "Clone",
+    "Comparing"
+  ],
+  "author": "Mohtasim Alam Sohom, ByteForge Softwares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sohom829/object-utils/issues"
+  },
+  "homepage": "https://github.com/Sohom829/object-utils#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.15.3",
+    "jest": "^29.5.0"
+  }
+}
